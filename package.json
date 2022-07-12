@@ -1,0 +1,48 @@
+{
+  "name": "my-vue-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "jest --config ./jest.config.js --coverage"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "pinia": "^2.0.15",
+    "vant": "^3.5.2",
+    "vue": "^3.2.25",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vitejs/plugin-vue-jsx": "^1.3.10",
+    "@vue/test-utils": "^2.0.2",
+    "babel-jest": "^28.1.2",
+    "cz-customizable": "^6.3.0",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.2.0",
+    "jest": "^28.1.2",
+    "jest-environment-jsdom": "^28.1.2",
+    "less": "^4.1.3",
+    "postcss-px-to-viewport": "^1.1.1",
+    "prettier": "^2.7.1",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vite-plugin-style-import": "1.4.1",
+    "vue-tsc": "^0.34.7",
+    "vue3-jest": "^27.0.0-alpha.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  }
+}
